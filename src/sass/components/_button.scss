@@ -1,0 +1,244 @@
+.product-btn {
+  width: 134px;
+  height: 42px;
+  border: solid 2px rgba(248, 210, 78, 1);
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  align-items: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+  transition: border-color cubic-bezier(0.4, 0, 0.2, 1),
+    color cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    border-color: rgba(10, 136, 23, 1);
+  }
+
+  &:focus {
+    color: rgba(252, 252, 252, 1);
+  }
+
+  &:visited {
+    border-color: rgba(171, 171, 171, 1);
+  }
+}
+
+.product-btn__mob {
+  width: 64px;
+  height: 24px;
+  border: solid 2px rgba(248, 210, 78, 1);
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 1.25;
+  align-items: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+  transition: border-color cubic-bezier(0.4, 0, 0.2, 1),
+    color cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    border-color: rgba(10, 136, 23, 1);
+  }
+
+  &:focus {
+    color: rgba(252, 252, 252, 1);
+  }
+
+  &:visited {
+    border-color: rgba(171, 171, 171, 1);
+  }
+}
+
+.made-btn {
+  width: 154px;
+  height: 40px;
+  border: none;
+
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: underline;
+  color: rgba(248, 210, 78, 1);
+  cursor: pointer;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    color: rgba(10, 136, 23, 1);
+  }
+
+  &:focus {
+    color: rgba(252, 252, 252, 1);
+  }
+
+  &:visited {
+    color: rgba(171, 171, 171, 1);
+  }
+}
+
+.made-btn__mob {
+  width: 82px;
+  height: 24px;
+  border: none;
+
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 1.25;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: underline;
+  color: rgba(248, 210, 78, 1);
+  cursor: pointer;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    color: rgba(10, 136, 23, 1);
+  }
+
+  &:focus {
+    color: rgba(252, 252, 252, 1);
+  }
+
+  &:visited {
+    color: rgba(171, 171, 171, 1);
+  }
+}
+
+// =========button use for all devices==========
+.read-btn {
+  width: 164px;
+  height: 42px;
+  border: solid 2px rgba(248, 210, 78, 1);
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  align-items: center;
+  text-align: center;
+  color: black;
+  background-color: #f8d24e;
+  cursor: pointer;
+  transition: border-color cubic-bezier(0.4, 0, 0.2, 1),
+    color cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    border-color: rgba(10, 136, 23, 1);
+    background-color: rgba(10, 136, 23, 1);
+  }
+
+  &:focus {
+    color: rgba(252, 252, 252, 1);
+    border-color: rgba(10, 136, 23, 1);
+    background-color: rgba(10, 136, 23, 1);
+  }
+
+  &:visited {
+    border-color: rgba(171, 171, 171, 1);
+    background-color: rgba(171, 171, 171, 1);
+  }
+}
+
+.location-btn {
+  width: 196px;
+  height: 42px;
+  border: solid 2px rgba(248, 210, 78, 1);
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  align-items: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+  transition: border-color cubic-bezier(0.4, 0, 0.2, 1),
+    color cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    border-color: rgba(10, 136, 23, 1);
+    background-color: rgba(10, 136, 23, 1);
+  }
+
+  &:focus {
+    color: rgba(252, 252, 252, 1);
+    border-color: rgba(10, 136, 23, 1);
+    background-color: rgba(10, 136, 23, 1);
+  }
+
+  &:visited {
+    border-color: rgba(171, 171, 171, 1);
+    background-color: rgba(171, 171, 171, 1);
+  }
+}
+
+.franchise-btn {
+  width: 196px;
+  height: 42px;
+  border: solid 2px rgba(248, 210, 78, 1);
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  align-items: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+  transition: border-color cubic-bezier(0.4, 0, 0.2, 1),
+    color cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    border-color: rgba(10, 136, 23, 1);
+  }
+
+  &:focus {
+    color: rgba(252, 252, 252, 1);
+  }
+
+  &:visited {
+    border-color: rgba(171, 171, 171, 1);
+  }
+}
+
+.buy-btn {
+  width: 152px;
+  height: 42px;
+  border: solid 2px rgba(248, 210, 78, 1);
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  align-items: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+  transition: border-color cubic-bezier(0.4, 0, 0.2, 1),
+    color cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    border-color: rgba(10, 136, 23, 1);
+    background-color: rgba(10, 136, 23, 1);
+  }
+
+  &:focus {
+    color: rgba(252, 252, 252, 1);
+    background-color: rgba(10, 136, 23, 1);
+  }
+
+  &:visited {
+    border-color: rgba(171, 171, 171, 1);
+    background-color: rgba(171, 171, 171, 1);
+  }
+}

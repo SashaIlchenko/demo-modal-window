@@ -16,11 +16,6 @@
      padding-right: 20px;
  }
 
- .calories-list {
-     display: flex;
-     align-items: center;
-     gap: 9px;
- }
 
  @media screen and (min-width:768px) {
      .modal {
@@ -31,9 +26,5 @@
      .modal__icream {
          padding-left: 40px;
          padding-right: 40px;
-     }
-
-     .calories-list {
-         gap: 20px;
      }
  }

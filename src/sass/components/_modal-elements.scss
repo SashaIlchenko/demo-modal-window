@@ -9,7 +9,6 @@
 
 .picture-wrapper {
     position: relative;
-    background-color: var(--modalGreen);
     background-color: var(--tintIcecream);
     width: 132px;
     height: 138px;
@@ -34,6 +33,10 @@
 }
 
 .calories-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
     margin-bottom: 39px;
 }
 
@@ -67,6 +70,32 @@
     margin-right: auto;
 }
 
+.ingredients-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.components-list {
+    display: flex;
+    gap: 11px;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+
+.components-list__item {
+    display: flex;
+    justify-content: space-between;
+
+    line-height: 1.7;
+}
+
+.modal-franch-text {
+    line-height: 1.4;
+    margin-bottom: 24px;
+}
 
 @media screen and (min-width:768px) {
     .modal-video {
@@ -75,7 +104,16 @@
         margin-bottom: 32px;
     }
 
+    .calories-list {
+        gap: 20px;
+    }
+
     .about-video {
         font-size: 16px;
+    }
+
+    .modal-franch-text {
+        font-size: 16px;
+        margin-bottom: 32px;
     }
 }

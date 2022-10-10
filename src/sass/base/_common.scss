@@ -1,6 +1,6 @@
 :root {
   --whiteText: #fcfcfc;
-  --blackText: #131313;
+  --blackText: rgba(19, 19, 19, 1);
   --grayText: #ababab;
   --darkText: #7a7a7a;
   --yellowText: #f8d24e;
@@ -29,6 +29,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
+  color: var(--blackText);
 }
 
 h1,
@@ -54,6 +55,13 @@ ol {
   margin-bottom: 0;
 }
 
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
 .link {
   text-decoration: none;
+  color: inherit;
 }

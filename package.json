@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://humbubahumbuba.github.io/team-project",
+  "homepage": "https://Ishchenko-Oleksii.github.io/team-project20",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /team-project/"
+    "build": "parcel build src/*.html --public-url /team-project20/"
   },
   "repository": {
     "type": "git",
