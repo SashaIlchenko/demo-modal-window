@@ -17,12 +17,10 @@
   &:hover {
     border-color: rgba(10, 136, 23, 1);
   }
-
   &:focus {
     color: rgba(252, 252, 252, 1);
   }
-
-  &:visited {
+  &:disabled {
     border-color: rgba(171, 171, 171, 1);
   }
 }
@@ -46,12 +44,10 @@
   &:hover {
     border-color: rgba(10, 136, 23, 1);
   }
-
   &:focus {
     color: rgba(252, 252, 252, 1);
   }
-
-  &:visited {
+  &:disabled {
     border-color: rgba(171, 171, 171, 1);
   }
 }
@@ -75,12 +71,10 @@
   &:hover {
     color: rgba(10, 136, 23, 1);
   }
-
   &:focus {
     color: rgba(252, 252, 252, 1);
   }
-
-  &:visited {
+  &:disabled {
     color: rgba(171, 171, 171, 1);
   }
 }
@@ -104,16 +98,13 @@
   &:hover {
     color: rgba(10, 136, 23, 1);
   }
-
   &:focus {
     color: rgba(252, 252, 252, 1);
   }
-
-  &:visited {
+  &:disabled {
     color: rgba(171, 171, 171, 1);
   }
 }
-
 // =========button use for all devices==========
 .read-btn {
   width: 164px;
@@ -136,14 +127,12 @@
     border-color: rgba(10, 136, 23, 1);
     background-color: rgba(10, 136, 23, 1);
   }
-
   &:focus {
     color: rgba(252, 252, 252, 1);
     border-color: rgba(10, 136, 23, 1);
     background-color: rgba(10, 136, 23, 1);
   }
-
-  &:visited {
+  &:disabled {
     border-color: rgba(171, 171, 171, 1);
     background-color: rgba(171, 171, 171, 1);
   }
@@ -169,14 +158,12 @@
     border-color: rgba(10, 136, 23, 1);
     background-color: rgba(10, 136, 23, 1);
   }
-
   &:focus {
     color: rgba(252, 252, 252, 1);
     border-color: rgba(10, 136, 23, 1);
     background-color: rgba(10, 136, 23, 1);
   }
-
-  &:visited {
+  &:disabled {
     border-color: rgba(171, 171, 171, 1);
     background-color: rgba(171, 171, 171, 1);
   }
@@ -201,12 +188,10 @@
   &:hover {
     border-color: rgba(10, 136, 23, 1);
   }
-
   &:focus {
     color: rgba(252, 252, 252, 1);
   }
-
-  &:visited {
+  &:disabled {
     border-color: rgba(171, 171, 171, 1);
   }
 }
@@ -231,14 +216,154 @@
     border-color: rgba(10, 136, 23, 1);
     background-color: rgba(10, 136, 23, 1);
   }
-
   &:focus {
     color: rgba(252, 252, 252, 1);
     background-color: rgba(10, 136, 23, 1);
   }
-
-  &:visited {
+  &:disabled {
     border-color: rgba(171, 171, 171, 1);
     background-color: rgba(171, 171, 171, 1);
+  }
+}
+
+
+// MODAL BTNS
+
+// franchise + buy now modal button
+.fra-modbtn {
+  width: 121px;
+  height: 42px;
+
+  border: solid 2px var(--BTN);
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+
+  
+  // fra-modbtn__mob
+  &__mob {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 114px;
+
+    font-size: 12px;
+    line-height: 1.25;
+  }
+
+  transition: border-color var(--cubic), color var(--cubic), background-color var(--cubic);
+
+  &:hover {
+    border-color: var(--accentBTN);
+    background-color: var(--accentBTN);
+  }
+  &:focus {
+    color: var(--whiteText);
+    background-color: var(--accentBTN);
+  }
+  &:disabled {
+    border-color: var(--disabledBTN);
+    background-color: var(--disabledBTN);
+  }
+}
+
+
+// our location modal
+
+.location-modbtn {
+  width: 145px;
+  height: 42px;
+
+  border: solid 2px var(--BTN);
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+
+  
+  // location-modbtn__mob
+  &__mob {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 134px;
+
+    font-size: 12px;
+    line-height: 1.25;
+  }
+
+  transition: border-color var(--cubic), color var(--cubic), background-color var(--cubic);
+
+  &:hover {
+    border-color: var(--accentBTN);
+    background-color: var(--accentBTN);
+  }
+  &:focus {
+    color: var(--whiteText);
+    background-color: var(--accentBTN);
+  }
+  &:disabled {
+    border-color: var(--disabledBTN);
+    background-color: var(--disabledBTN);
+  }
+}
+
+
+// ingredients modal button
+
+.ingred-modbtn {
+  width: 121px;
+  height: 42px;
+
+  border: solid 2px var(--BTN);
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+
+  
+  // ingred-modbtn__mob
+  &__mob {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 132px;
+  }
+
+  transition: border-color var(--cubic), color var(--cubic), background-color var(--cubic);
+
+  &:hover {
+    border-color: var(--accentBTN);
+    background-color: var(--accentBTN);
+  }
+  &:focus {
+    color: var(--whiteText);
+    background-color: var(--accentBTN);
+  }
+  &:disabled {
+    border-color: var(--disabledBTN);
+    background-color: var(--disabledBTN);
   }
 }

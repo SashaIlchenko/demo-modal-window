@@ -1,30 +1,36 @@
- .modal {
-     position: relative;
-     /*будет абсолют */
-     //  top: 50%;
-     //  left: 50%;
-     padding: 30px;
-     //  transform: translate(-50%, -50%);
-     width: 100%;
-     background-color: var(--modalBG2);
-     border: 2px solid var(--BTN);
-     border-radius: 10px;
- }
-
- .modal__icream {
-     padding-left: 20px;
-     padding-right: 20px;
- }
+.modal {
+    opacity: 0;
+    visibility: hidden;
+    // position: absolute;
+    position: fixed;
+    z-index: 101;
 
 
- @media screen and (min-width:768px) {
-     .modal {
-         width: 568px;
-         padding: 32px 60px;
-     }
 
-     .modal__icream {
-         padding-left: 40px;
-         padding-right: 40px;
-     }
- }
+    top: 50%;
+    left: 50%;
+    padding: 30px;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: var(--modalBG2);
+    border: 2px solid var(--BTN);
+    border-radius: 10px;
+}
+
+.modal__icream {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+@media screen and (min-width:481px) {
+    .modal {
+        width: 568px;
+        padding: 32px 60px;
+    }
+
+    .modal__icream {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}

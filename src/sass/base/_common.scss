@@ -30,8 +30,19 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--blackText);
+  background: url('../images/icecrem_fon_mobile.jpg') 50%/cover repeat-y fixed;
+}
+@media screen and (min-width: 768px) {
+  body {
+    background: url('../images/icecrem_fon_tab.jpg') 50%/cover repeat-y fixed;
+  }
 }
 
+@media screen and (min-width: 1200px) {
+  body {
+    background: url('../images/icecrem_fon_dekstop.jpg') 50%/cover repeat-y fixed;
+  }
+}
 h1,
 h2,
 h3,

@@ -1,4 +1,6 @@
-.backdrop {
+.overlay {
+    visibility: hidden;
+    opacity: 1;
     position: fixed;
     top: 0;
     left: 0;
@@ -7,12 +9,11 @@
 
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 100;
-    transition: visibility var(--transition-dur-fun), opacity var(--transition-dur-fun);
+    transition: visibility var(--duration) var(--cubic), opacity var(--duration) var(--cubic);
 
 }
 
-.is-hidden {
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
+.active {
+    opacity: 1;
+    visibility: visible;
 }
